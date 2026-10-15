@@ -1,0 +1,20 @@
+--- Prueba de validacion ---
+valor:   '24.5' -> ¿es valido?: True
+valor:   '38.2' -> ¿es valido?: True
+valor:  '-80.0' -> ¿es valido?: False
+valor:  'Vacio' -> ¿es valido?: False
+valor:    '-50' -> ¿es valido?: True
+valor:    '100' -> ¿es valido?: True
+valor:  '100.1' -> ¿es valido?: False
+valor:       '' -> ¿es valido?: False
+
+=== INDICADORES Y RESULTADOS ===
+Registros leidos: 5
+Registros validos: 3
+Total de registros rechazados: 2
+
+Promedio de temperatura por ubicacion:
+ - Zona A: 24.50 °C
+ - Zona B: 34.60 °C
+
+Archivos 'validos.csv' y 'rechazados.csv' generados con exito.
